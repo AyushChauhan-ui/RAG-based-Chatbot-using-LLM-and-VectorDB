@@ -3,11 +3,11 @@
 
 ## Description
 
-This project implements a RAG-based chatbot for information retrieval using large language models(LLM), langchain and vectorDB set-up on a local environment using ollama. Chainlit is utilizerd for chatbot interaction. It consists of two main scripts: `load.py` for loading and storing documents in a Vector Database (vdb) and `app.py` for starting the chatbot that leverages the stored information for answering queries.
+This project implements a RAG-based chatbot for information retrieval using large language models(LLM), langchain and vectorDB set-up on a local environment using ollama. Chainlit is utilized for chatbot interaction. It consists of two main scripts: `load.py` for loading and storing documents in a Vector Database (vdb) and `app.py` for starting the chatbot that leverages the stored information for answering queries.
 
 ## Installation
 
-1. Go to the directory in which you want to work you want to work and Create and activate a virtual environment:
+1. Go to the directory in which you want to work and Create and activate a virtual environment:
 
    ```bash
    python -m venv venv
